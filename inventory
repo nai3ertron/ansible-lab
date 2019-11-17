@@ -1,0 +1,2 @@
+[hosts]
+ansible-server ansible_host=35.240.162.5
