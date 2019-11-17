@@ -1,2 +1,3 @@
 [hosts]
-ansible-server ansible_host=35.240.162.5
+ansible-client-2 ansible_host=35.240.162.5 ansible_user=ansible ansible_ssh_pass=ansible
+ansible-client ansible_host=35.240.131.156 ansible_ssh_pass=ansible ansible_user=ansible
