@@ -4,3 +4,5 @@ ansible-client ansible_host=35.240.131.156 ansible_ssh_pass=ansible ansible_user
 
 [vars]
 ansible_connection=ssh
+
+# ansible-galaxy install geerlingguy.apache
