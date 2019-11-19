@@ -1,0 +1,8 @@
+---
+ - hosts: ansible-client-2
+   remote_user: ansible
+   become: true
+   roles: 
+    - { role: geerlingguy.nginx }
+    - { role: geerlingguy.php-versions }
+    - { role: geerlingguy.php }
