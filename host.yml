@@ -1,4 +1,4 @@
-- hosts: all
+- hosts: ansible-client
   remote_user: ansible
   become: true
   tasks:
